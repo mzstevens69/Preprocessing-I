@@ -132,9 +132,9 @@ table {
 }
 html,
 body {
-  height: 100%;
+  height: 115%;
   margin: 1%;
-  padding: 0.25%;
+  padding: 0.5%;
 }
 header {
   width: 100%;
@@ -203,6 +203,55 @@ header nav .links a {
   text-align: center;
 }
 .smparagraph {
-  height: 45vh;
+  height: 30vh;
   background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+}
+.inner-text {
+  width: 45%;
+  margin-top: 2%;
+  height: 70%;
+}
+.inner-list {
+  width: 100%;
+  margin: 3%;
+  padding: 9%;
+  height: 70%;
+}
+h2 {
+  margin-bottom: 4%;
+  font-size: 2rem;
+}
+#bottombox {
+  width: 100%;
+  margin: 4%;
+  height: 40%;
+  border: 1px solid grey;
+}
+.table-wrapper {
+  border-spacing: 0.5rem;
+}
+footer {
+  font-size: 1rem;
+  text-align: center;
+  padding: 3%;
+}
+table,
+th,
+td {
+  border: 1px solid royalblue;
+}
+th {
+  text-align: left;
+  background-color: lightskyblue;
+  padding: 1%;
+}
+h4 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.6rem;
+}
+td {
+  padding: 0.5%;
 }
