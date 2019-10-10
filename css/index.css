@@ -1,1 +1,263 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 115%;
+  margin: 1%;
+  padding: 0.5%;
+}
+header {
+  width: 100%;
+  margin-bottom: 3%;
+  display: flex;
+}
+header .icons {
+  width: 50%;
+  height: 25%;
+}
+header .icons a {
+  padding: 1%;
+  color: cornflowerblue;
+}
+header nav {
+  display: flex;
+  width: 100%;
+}
+header nav .links {
+  width: 100%;
+  padding: 1%;
+}
+header nav .links a {
+  text-decoration: none;
+  color: darkslategrey;
+  margin: 2%;
+}
+#bigbox {
+  background-color: paleturquoise;
+  width: 100%;
+  height: 65vh;
+}
+#bigbox .wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1.5%;
+  padding: 0.25%;
+}
+#bigbox .btn {
+  border-radius: 4px;
+  margin: 0.25%;
+  width: 12%;
+  height: 7%;
+  background-color: cornflowerblue;
+  font-size: 1.5rem;
+  color: lavenderblush;
+}
+#bigbox h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+#bigbox .me {
+  height: 65%;
+  padding: 4%;
+  width: 45%;
+  margin-left: 5%;
+}
+#bigbox .secondpic {
+  height: 65%;
+  padding: 4%;
+  width: 45%;
+  opacity: 0.5;
+}
+#bigbox h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+#bigbox .smparagraph {
+  height: 30vh;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+}
+.smparagraph {
+  height: 30vh;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+}
+.smparagraph .inner-text {
+  width: 45%;
+  margin-top: 2%;
+  height: 70%;
+}
+.smparagraph .inner-list {
+  width: 100%;
+  margin: 3%;
+  padding: 9%;
+  height: 70%;
+}
+h2 {
+  margin-bottom: 4%;
+  font-size: 2rem;
+}
+#bottombox {
+  width: 100%;
+  margin: 4%;
+  height: 40%;
+  border: 1px solid grey;
+}
+.table-wrapper {
+  border-spacing: 0.5rem;
+}
+.table-wrapper table,
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid royalblue;
+}
+.table-wrapper th {
+  text-align: left;
+  background-color: lightskyblue;
+  padding: 1%;
+}
+.table-wrapper td {
+  padding: 0.5%;
+}
+footer {
+  font-size: 1rem;
+  text-align: center;
+  padding: 3%;
+}
+h4 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.6rem;
+}
