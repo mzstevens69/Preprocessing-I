@@ -202,18 +202,24 @@ header nav .links a {
   font-size: 2rem;
   text-align: center;
 }
+#bigbox .smparagraph {
+  height: 30vh;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-around;
+}
 .smparagraph {
   height: 30vh;
   background-color: dodgerblue;
   display: flex;
   justify-content: space-around;
 }
-.inner-text {
+.smparagraph .inner-text {
   width: 45%;
   margin-top: 2%;
   height: 70%;
 }
-.inner-list {
+.smparagraph .inner-list {
   width: 100%;
   margin: 3%;
   padding: 9%;
@@ -232,26 +238,26 @@ h2 {
 .table-wrapper {
   border-spacing: 0.5rem;
 }
+.table-wrapper table,
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid royalblue;
+}
+.table-wrapper th {
+  text-align: left;
+  background-color: lightskyblue;
+  padding: 1%;
+}
+.table-wrapper td {
+  padding: 0.5%;
+}
 footer {
   font-size: 1rem;
   text-align: center;
   padding: 3%;
 }
-table,
-th,
-td {
-  border: 1px solid royalblue;
-}
-th {
-  text-align: left;
-  background-color: lightskyblue;
-  padding: 1%;
-}
 h4 {
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 1.6rem;
-}
-td {
-  padding: 0.5%;
 }
